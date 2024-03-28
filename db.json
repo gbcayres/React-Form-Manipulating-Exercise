@@ -1,27 +1,36 @@
 {
   "itens": [
     {
-      "id": "c220",
-      "name": "prretwij",
-      "price": "2132",
+      "id": "07f3",
+      "name": "celta",
+      "price": "5",
       "category": {
-        "id": "1",
-        "name": "Tech"
+        "id": "2",
+        "name": "Cars"
       }
     },
     {
-      "id": "c322",
-      "name": "projeto",
+      "id": "f96d",
+      "name": "clean code",
+      "price": "100",
+      "category": {
+        "id": "4",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "99a8",
+      "name": "pizza",
+      "price": "70",
+      "category": {
+        "id": "3",
+        "name": "Food"
+      }
+    },
+    {
+      "id": "5a5c",
+      "name": "monitor 144hz",
       "price": "1000",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "d6dd",
-      "name": "projeto",
-      "price": "11",
       "category": {
         "id": "1",
         "name": "Tech"

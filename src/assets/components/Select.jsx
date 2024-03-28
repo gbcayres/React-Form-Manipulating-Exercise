@@ -1,6 +1,6 @@
 function Select({ label, name, options, value, handleChange }) {
   return (
-    <div>
+    <div className="input_container">
         <label htmlFor={name}>{label}</label>
         <select name={name} value={value} onChange={handleChange}>
             <option>Selecione uma categoria</option>

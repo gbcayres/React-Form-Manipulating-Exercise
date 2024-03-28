@@ -14,7 +14,6 @@ const useCategories = () => {
                 });
                 const data = await response.json();
                 setCategorias(data);
-                console.log(data)
             } catch(error) {
                 console.log('error:', error);
             }

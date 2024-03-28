@@ -9,7 +9,7 @@ import Button from "./Button"
 function Form() {
     const categories = useCategories();
     const [item, setItem] = useState({});
-    const {postData, data, isLoading, error} = usePost('http://localhost:5000/i');
+    const {postData, data, isLoading, error} = usePost('http://localhost:5000/itens');
 
     console.log(item);
 
@@ -35,11 +35,10 @@ function Form() {
     const handleSubmit = (e) => {
         e.preventDefault();
         postData(item)
-        console.log(item);
     }
 
     return (
-     <form onSubmit={handleSubmit} >
+     <form className="form" onSubmit={handleSubmit} >
         <Input 
             label="nome:"
             type="text"
@@ -66,8 +65,8 @@ function Form() {
             <Button text="Enviar" />
         )}
 
-        {error && <p>Ocorreu um erro: {error}</p>}
-        {data && <p>Dados cadastrados com sucesso!</p>}
+        {error && <p className="error_message">Ocorreu um erro: {error}</p>}
+        {data && <p className="sucess_message">Dados cadastrados com sucesso!</p>}
     </form>
   )
 }

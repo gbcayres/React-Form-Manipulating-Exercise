@@ -20,7 +20,6 @@ function usePost(url) {
             })
             
             const responseData = await response.json();
-            console.log(responseData);
             setData(responseData);
         } catch(error) {
             setError(error.message);
