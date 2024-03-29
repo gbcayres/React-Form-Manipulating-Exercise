@@ -9,7 +9,6 @@
 }
 
 .modal {
-    text-align: center;
     background-color: white;
     border-radius: 1rem;
     color: black;
@@ -23,20 +22,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #222;
 }
 
-.close_container {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.close_container span{
-
-    transform: scale(1.5);
+.close_icon {
     transition: 0.5s all;
+    transform: scale(1.5);
 }
 
-.close_container span:hover {
+.close_icon:hover {
     cursor: pointer;
     transform: scale(2);
 }
@@ -48,6 +43,7 @@
 
 .modal_content {
     padding: 1rem;
+    min-height: 80px;
     text-align: center;
 }
 

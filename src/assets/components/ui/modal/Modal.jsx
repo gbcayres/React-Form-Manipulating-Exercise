@@ -1,3 +1,4 @@
+import ModalHeader from './ModalHeader'
 import CloseIcon from './CloseIcon'
 import ModalAction from './ModalAction'
 import ModalContent from './ModalContent'
@@ -10,8 +11,10 @@ function Modal({ title, children, actions, onClose}) {
   return (
     <div className="modal_container">
       <div className="modal">
-        <CloseIcon handleClick={onClose}/>
-        <h1>{title}</h1>
+        <ModalHeader>
+          <h1>{title}</h1>
+          <CloseIcon handleClick={onClose}/>
+        </ModalHeader>
         <ModalContent>
           {children}
         </ModalContent>

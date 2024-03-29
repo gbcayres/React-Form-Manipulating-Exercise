@@ -8,6 +8,42 @@
         "id": "1",
         "name": "Tech"
       }
+    },
+    {
+      "id": "8b63",
+      "name": "mouse gamer",
+      "price": "189",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
+    },
+    {
+      "id": "bde3",
+      "name": "mouse gamer",
+      "price": "189",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
+    },
+    {
+      "id": "16c2",
+      "name": "mouse gamer",
+      "price": "189",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
+    },
+    {
+      "id": "131a",
+      "name": "mouse",
+      "price": "189",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
     }
   ],
   "categories": [
