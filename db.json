@@ -1,206 +1,71 @@
 {
   "itens": [
     {
-      "id": "07f3",
-      "name": "celta",
-      "price": "5",
+      "id": "edeb",
+      "name": "teste",
+      "price": "423",
       "category": {
         "id": "2",
         "name": "Cars"
       }
     },
     {
-      "id": "f96d",
-      "name": "clean code",
-      "price": "100",
-      "category": {
-        "id": "4",
-        "name": "Books"
-      }
-    },
-    {
-      "id": "99a8",
-      "name": "pizza",
-      "price": "70",
+      "id": "c35e",
+      "name": "teste",
+      "price": "31",
       "category": {
         "id": "3",
         "name": "Food"
       }
     },
     {
-      "id": "5a5c",
-      "name": "monitor 144hz",
-      "price": "1000",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "7fe6",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "a2c2",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "eb18",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "5e3e",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "178e",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "7ace",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "f6f4",
-      "name": "item",
-      "price": "11",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "1fd9",
-      "name": "item",
-      "price": "32",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "fe1f",
-      "name": "item",
-      "price": "32",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "30c5",
-      "name": "item",
-      "price": "32",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "a168",
-      "name": "item",
-      "price": "32",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "47f0",
-      "name": "item",
-      "price": "32",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "7fc2",
+      "id": "71d2",
       "name": "teste",
-      "price": "21",
+      "price": "2132",
       "category": {
         "id": "2",
         "name": "Cars"
       }
     },
     {
-      "id": "fe84",
+      "id": "c0ee",
       "name": "teste",
-      "price": "21",
-      "category": {
-        "id": "2",
-        "name": "Cars"
-      }
-    },
-    {
-      "id": "5aae",
-      "name": "teste",
-      "price": "31",
-      "category": {
-        "id": "2",
-        "name": "Cars"
-      }
-    },
-    {
-      "id": "a777",
-      "name": "teste",
-      "price": "12",
+      "price": "3232",
       "category": {
         "id": "1",
         "name": "Tech"
       }
     },
     {
-      "id": "c4ca",
+      "id": "4963",
       "name": "teste",
-      "price": "21",
+      "price": "3232",
       "category": {
         "id": "1",
         "name": "Tech"
       }
     },
     {
-      "id": "e7d3",
+      "id": "ef82",
       "name": "teste",
-      "price": "5000",
+      "price": "1231",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
+    },
+    {
+      "id": "73fb",
+      "name": "teste",
+      "price": "1232",
       "category": {
         "id": "2",
         "name": "Cars"
       }
     },
     {
-      "id": "0440",
-      "name": "item",
+      "id": "cfbb",
+      "name": "tres",
       "price": "3232",
       "category": {
         "id": "2",
@@ -208,81 +73,9 @@
       }
     },
     {
-      "id": "e90c",
-      "name": "item",
-      "price": "342332",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "72be",
+      "id": "5759",
       "name": "teste",
-      "price": "21312",
-      "category": {
-        "id": "2",
-        "name": "Cars"
-      }
-    },
-    {
-      "id": "36f9",
-      "name": "teste",
-      "price": "21312",
-      "category": {
-        "id": "2",
-        "name": "Cars"
-      }
-    },
-    {
-      "id": "913b",
-      "name": "teste",
-      "price": "31",
-      "category": {
-        "id": "2",
-        "name": "Cars"
-      }
-    },
-    {
-      "id": "5a2e",
-      "name": "treds",
-      "price": "3213",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "e7da",
-      "name": "fds",
-      "price": "321",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "6f88",
-      "name": "item",
-      "price": "32",
-      "category": {
-        "id": "2",
-        "name": "Cars"
-      }
-    },
-    {
-      "id": "e1ca",
-      "name": "teste",
-      "price": "213",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "9fa4",
-      "name": "teste",
-      "price": "32",
+      "price": "2121",
       "category": {
         "id": "1",
         "name": "Tech"
