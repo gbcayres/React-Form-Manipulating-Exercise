@@ -80,6 +80,33 @@
         "id": "1",
         "name": "Tech"
       }
+    },
+    {
+      "id": "ffa3",
+      "name": "teste",
+      "price": "121",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
+    },
+    {
+      "id": "30ce",
+      "name": "teste",
+      "price": "5000",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
+    },
+    {
+      "id": "466f",
+      "name": "teste",
+      "price": "123",
+      "category": {
+        "id": "1",
+        "name": "Tech"
+      }
     }
   ],
   "categories": [

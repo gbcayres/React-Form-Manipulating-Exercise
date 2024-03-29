@@ -85,7 +85,8 @@ function Form() {
             {error && <p className="error_message">Ocorreu um erro: {error}</p>}
             {data && <p className="sucess_message">Dados enviados com sucesso!</p>}
         </form>
-        {/* {console.log(isModalOpen)}
+
+        {console.log(isModalOpen)}
 
         {data && openModal()}
         
@@ -99,7 +100,7 @@ function Form() {
             >
                 <p>O item foi cadastrado com sucesso!</p>
             </Modal>
-        )} */}
+        )}
      </>
   )
 }
