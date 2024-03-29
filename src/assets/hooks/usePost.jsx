@@ -9,8 +9,8 @@ function usePost(url) {
         try {
             setIsLoading(true);
             setError(null);
-            setData(null)
-
+            setData(null);
+            
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
@@ -28,7 +28,7 @@ function usePost(url) {
         }
     } 
 
-    return { postData, data, isLoading, error }
+    return { postData, data, setData, isLoading, error }
 }
 
 export default usePost
