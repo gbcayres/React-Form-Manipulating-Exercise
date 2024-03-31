@@ -1,48 +1,21 @@
 {
   "itens": [
     {
-      "id": "ba75",
-      "name": "mouse gamer",
-      "price": "189",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "8b63",
-      "name": "mouse gamer",
-      "price": "189",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "bde3",
-      "name": "mouse gamer",
-      "price": "189",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "16c2",
-      "name": "mouse gamer",
-      "price": "189",
-      "category": {
-        "id": "1",
-        "name": "Tech"
-      }
-    },
-    {
-      "id": "131a",
+      "id": "708d",
       "name": "mouse",
-      "price": "189",
+      "price": "100",
       "category": {
         "id": "1",
         "name": "Tech"
+      }
+    },
+    {
+      "id": "281b",
+      "name": "french fries",
+      "price": "5",
+      "category": {
+        "id": "3",
+        "name": "Food"
       }
     }
   ],

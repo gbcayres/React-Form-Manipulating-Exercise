@@ -3,13 +3,11 @@ import { useState } from "react"
 function usePost(url) {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [data, setData] = useState(null);
 
-    const postData = async (postingData) => {
+    const postData = async (postingData, openModal) => {
         try {
             setIsLoading(true);
             setError(null);
-            setData(null);
             
             const response = await fetch(url, {
                 method: 'POST',
@@ -18,9 +16,10 @@ function usePost(url) {
                 },
                 body: JSON.stringify(postingData)
             })
-            
-            const responseData = await response.json();
-            setData(responseData);
+
+            if(response.ok) {
+                openModal();
+            } 
         } catch(error) {
             setError(error.message);
         } finally {
@@ -28,7 +27,7 @@ function usePost(url) {
         }
     } 
 
-    return { postData, data, setData, isLoading, error }
+    return { postData, isLoading, error }
 }
 
 export default usePost

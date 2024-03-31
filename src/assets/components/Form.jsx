@@ -10,11 +10,9 @@ import Modal from "./ui/modal/Modal"
 function Form() {
     const categories = useCategories();
     const [item, setItem] = useState({});
-    const {postData, data, setData, isLoading, error} = usePost('http://localhost:5000/itens');
+    const {postData, isLoading, error} = usePost('http://localhost:5000/itens');
 
     const [isModalOpen, setIsModalOpen] = useState(false);
-
-    console.log(item);
 
     const handleInput = (e) => {
         const { name, value} = e.target;
@@ -37,20 +35,17 @@ function Form() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        postData(item)
+        postData(item, openModal)
     }
 
     const openModal = () => {
         if(!isModalOpen) {
             setIsModalOpen(true);
-            console.log(isModalOpen);
         }
     }
 
     const closeModal = () => {
-        setData(null);
         setIsModalOpen(false);
-        console.log(isModalOpen);
     }
 
     return (
@@ -84,10 +79,7 @@ function Form() {
             )}
 
             {error && <p className="error_message">Ocorreu um erro: {error}</p>}
-            {data && <p className="sucess_message">Dados enviados com sucesso!</p>}
         </form>
-
-        {data && openModal()}
         
         {isModalOpen && (
             <Modal 
